@@ -1,0 +1,49 @@
+.fs-16{
+    font-size: 16px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-11{
+    font-size: 11px;
+}
+.b-b-1{
+    border-bottom: 1px solid lightgray !important;
+}
+.b-l-1{
+    border-left: 1px solid lightgray !important;
+}
+.h-550{
+    height: 550px;
+}
+.h-275{
+    height: 275px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+.overly-parent{
+    position: relative;
+    overflow: hidden;
+}
+.overly-parent:hover .overly{
+    opacity: 1;
+    bottom: 0;
+}
+.overly{
+    background-color: rgba(57, 119, 175, .8);
+    height: 333px;
+    width: 100%;
+    position: absolute;
+    bottom: 100%;
+    transition: 1s;
+    opacity: 0;
+}
