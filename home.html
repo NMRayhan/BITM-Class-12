@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Menu</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">LOGO</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myMenu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"></li>><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"></li>><a class="nav-link" href="#">Features</a></li>
+                        <li class="nav-item"></li>><a class="nav-link" href="#">Pricing</a></li>
+                        <li class="nav-item"></li>><a class="nav-link" href="#">Contact</a></li>
+                        <li class="nav-item"></li>><a class="nav-link" href="#">Signin</a></li>
+                        <li class="nav-item"></li>><a class="nav-link" href="#" data-toggle="modal"
+                            data-target="#Signup-form">Signup</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container py-3">
+            <div class="modal fade" id="Signup-form">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">Registration Form</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="">
+                                <div class="form-group row">
+                                    <label for="Name" class="col-md-4 col-form-label">Full Name</label>
+                                    <div class="col-md-8">
+                                        <input type="text" id="Name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-md-4">
+                                        <label for="UserName" class="col-form-label">User Name</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <input type="text" id="UserName" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-md-4">
+                                        <label for="email" class="col-form-label">Email</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <input type="email" id="email" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-md-4">
+                                        <label for="phone" class="col-form-label">Phone</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <input type="number" id="phone" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-md-4">
+                                        <label for="address" class="col-form-label">Address</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <textarea name="address" id="address" cols="30" rows="5"
+                                            class="form-control"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-md-4">
+                                        <label for="gender" class="col-form-label">Gender</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <label for="male"><input type="radio" name="gender" id="male" value="Male">
+                                            Male</label>
+                                        <label for="female"><input type="radio" name="gender" id="female"
+                                                value="female">
+                                            Female</label>
+                                        <label for="others"><input type="radio" name="gender" id="others"
+                                                value="Others">
+                                            Others</label>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-md-4">
+                                        <label for="password" class="col-form-label">Password</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <input type="password" id="password" class="form-control">
+                                    </div>
+                                </div>
+                                <!-- <div class="form-group row">
+                                    <div class="col-md-4"></div>
+                                    <div class="col-md-8 row justify-content-center">
+                                        <div class="col-md-4">
+                                            <button type="button" class="btn btn-outline-success btn-block"
+                                                value="Submit">Submit</button>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <button type="reset" class="btn btn-outline-danger btn-block"
+                                                value="Reset">Reset</button>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" value="submit">Submit</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container py-3">
+
+        </section>
+    </main>
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
